@@ -20,7 +20,7 @@ setup(
     author="Simon Willison",
     url="https://github.com/simonw/datasette-plugin-template-demo",
     project_urls={
-        "Issues": "https://gitlab.com/simonw/datasette-plugin-template-demo/issues",
+        "Issues": "https://github.com/simonw/datasette-plugin-template-demo/issues",
         "CI": "https://github.com/simonw/datasette-plugin-template-demo/actions",
         "Changelog": "https://github.com/simonw/datasette-plugin-template-demo/releases",
     },
