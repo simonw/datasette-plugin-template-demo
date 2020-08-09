@@ -2,7 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/datasette-plugin-template-demo.svg)](https://pypi.org/project/datasette-plugin-template-demo/)
 [![Changelog](https://img.shields.io/github/v/release/simonw/datasette-plugin-template-demo?include_prereleases&label=changelog)](https://github.com/simonw/datasette-plugin-template-demo/releases)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/datasette-plugin-template-demo/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/datasette-plugin-template-demo/blob/main/LICENSE)
 
 Demonstrating https://github.com/simonw/datasette-plugin
 
