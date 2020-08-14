@@ -10,7 +10,7 @@ Demonstrating https://github.com/simonw/datasette-plugin
 
 Install this plugin in the same environment as Datasette.
 
-    $ pip install datasette-plugin-template-demo
+    $ datasette install datasette-plugin-template-demo
 
 ## Usage
 
