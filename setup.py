@@ -29,8 +29,6 @@ setup(
     packages=["datasette_plugin_template_demo"],
     entry_points={"datasette": ["plugin_template_demo = datasette_plugin_template_demo"]},
     install_requires=["datasette"],
-    extras_require={
-        "test": ["pytest", "pytest-asyncio", "httpx"]
-    },
+    extras_require={"test": ["pytest", "pytest-asyncio", "httpx"]},
     tests_require=["datasette-plugin-template-demo[test]"],
 )
