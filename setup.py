@@ -30,7 +30,6 @@ setup(
     entry_points={"datasette": ["plugin_template_demo = datasette_plugin_template_demo"]},
     install_requires=["datasette"],
     extras_require={"test": ["pytest", "pytest-asyncio"]},
-    tests_require=["datasette-plugin-template-demo[test]"],
     package_data={
         "datasette_plugin_template_demo": ["static/*", "templates/*"]
     },
