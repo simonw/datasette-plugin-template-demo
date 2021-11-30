@@ -25,6 +25,10 @@ setup(
         "Changelog": "https://github.com/simonw/datasette-plugin-template-demo/releases",
     },
     license="Apache License, Version 2.0",
+    classifiers=[
+        "Framework :: Datasette",
+        "License :: OSI Approved :: Apache Software License"
+    ],
     version=VERSION,
     packages=["datasette_plugin_template_demo"],
     entry_points={"datasette": ["plugin_template_demo = datasette_plugin_template_demo"]},
