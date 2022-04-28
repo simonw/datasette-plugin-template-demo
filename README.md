@@ -11,7 +11,7 @@ Demonstrating https://github.com/simonw/datasette-plugin
 
 Install this plugin in the same environment as Datasette.
 
-    $ datasette install datasette-plugin-template-demo
+    datasette install datasette-plugin-template-demo
 
 ## Usage
 
@@ -22,12 +22,8 @@ Usage instructions go here.
 To set up this plugin locally, first checkout the code. Then create a new virtual environment:
 
     cd datasette-plugin-template-demo
-    python3 -mvenv venv
+    python3 -m venv venv
     source venv/bin/activate
-
-Or if you are using `pipenv`:
-
-    pipenv shell
 
 Now install the dependencies and test dependencies:
 

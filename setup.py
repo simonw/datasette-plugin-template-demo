@@ -37,5 +37,5 @@ setup(
     package_data={
         "datasette_plugin_template_demo": ["static/*", "templates/*"]
     },
-    python_requires=">=3.6",
+    python_requires=">=3.7",
 )
