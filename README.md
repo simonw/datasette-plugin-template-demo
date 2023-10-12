@@ -10,9 +10,9 @@ Demonstrating https://github.com/simonw/datasette-plugin
 ## Installation
 
 Install this plugin in the same environment as Datasette.
-
-    datasette install datasette-plugin-template-demo
-
+```bash
+datasette install datasette-plugin-template-demo
+```
 ## Usage
 
 Usage instructions go here.
@@ -20,15 +20,16 @@ Usage instructions go here.
 ## Development
 
 To set up this plugin locally, first checkout the code. Then create a new virtual environment:
-
-    cd datasette-plugin-template-demo
-    python3 -m venv venv
-    source venv/bin/activate
-
+```bash
+cd datasette-plugin-template-demo
+python3 -m venv venv
+source venv/bin/activate
+```
 Now install the dependencies and test dependencies:
-
-    pip install -e '.[test]'
-
+```bash
+pip install -e '.[test]'
+```
 To run the tests:
-
-    pytest
+```bash
+pytest
+```
