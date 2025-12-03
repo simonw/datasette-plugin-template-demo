@@ -17,6 +17,9 @@ dependencies = [
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
+[tool.uv]
+package = true
+
 [project.urls]
 Homepage = "https://github.com/simonw/datasette-plugin-template-demo"
 Changelog = "https://github.com/simonw/datasette-plugin-template-demo/releases"
