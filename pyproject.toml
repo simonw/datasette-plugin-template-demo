@@ -13,12 +13,16 @@ dependencies = [
     "datasette"
 ]
 
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-asyncio"
+]
+
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
-[tool.uv]
-package = true
 
 [project.urls]
 Homepage = "https://github.com/simonw/datasette-plugin-template-demo"
@@ -28,9 +32,6 @@ CI = "https://github.com/simonw/datasette-plugin-template-demo/actions"
 
 [project.entry-points.datasette]
 plugin_template_demo = "datasette_plugin_template_demo"
-
-[dependency-groups]
-dev = ["pytest", "pytest-asyncio"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "strict"
