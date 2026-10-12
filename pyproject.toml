@@ -8,7 +8,7 @@ license = "Apache-2.0"
 classifiers=[
     "Framework :: Datasette"
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "datasette"
 ]
@@ -29,8 +29,8 @@ CI = "https://github.com/simonw/datasette-plugin-template-demo/actions"
 [project.entry-points.datasette]
 plugin_template_demo = "datasette_plugin_template_demo"
 
-[project.optional-dependencies]
-test = ["pytest", "pytest-asyncio"]
+[dependency-groups]
+dev = ["pytest", "pytest-asyncio"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "strict"
